@@ -10,5 +10,12 @@ Al secondo click la lampadina si spegne e nel bottone compare la scritta "Accend
 E così via...
 usa string.includes()  */
 
+let luceSpenta = document.getElementById("luce-spenta");
+let luceAccesa= document.getElementById("luce-accesa");
+let bottone = document.getElementById("btn");
 
+bottone.addEventListener("click", function(){
 
+    
+
+})
