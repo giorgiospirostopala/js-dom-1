@@ -16,7 +16,8 @@ let bottone = document.getElementById("btn");
 
 bottone.addEventListener("click", function(){
 
-    if (luceSpenta.style.display = "block") {
+    //! [chiedi perché fosse così importante usare, in questo caso, il "===" piuttosto che un semplice "="]
+    if (luceSpenta.style.display === "block") {
         luceSpenta.style.display = "none";
         luceAccesa.style.display = "block"
         bottone.textContent = "Spegni"
