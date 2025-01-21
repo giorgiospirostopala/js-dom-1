@@ -16,6 +16,14 @@ let bottone = document.getElementById("btn");
 
 bottone.addEventListener("click", function(){
 
-    
+    if (luceSpenta.style.display = "block") {
+        luceSpenta.style.display = "none";
+        luceAccesa.style.display = "block"
+        bottone.textContent = "Spegni"
+    } else {
+        luceAccesa.style.display = "none"
+        luceSpenta.style.display = "block";
+        bottone.textContent = "Accendi"
+    }
 
 })
